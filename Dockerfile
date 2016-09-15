@@ -1,4 +1,6 @@
-FROM asbjornenge/zerobuntu:16.04-1.0.3
+## Node with ZeroTier
+#
+FROM asbjornenge/ubuntu-zero:16.04-1.0.0
 
 RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_4.x -o nodesource_setup.sh
